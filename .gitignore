@@ -1,0 +1,35 @@
+*
+
+!01_cpp_hello-world/
+!02_cpp_input/
+!03_fibunacci/
+!04_multiple files/
+!05_rational/
+!07_build/
+
+!01_cpp_hello-world/*.cpp
+!02_cpp_input/*.cpp
+!03_fibunacci/*.cpp
+!04_multiple files/*.cpp
+!05_rational/*.cpp
+!07_build/*.cpp
+
+!01_cpp_hello-world/*.hpp
+!02_cpp_input/*.hpp
+!03_fibunacci/*.hpp
+!04_multiple files/*.hpp
+!05_rational/*.hpp
+!07_build/*.hpp
+
+!01_cpp_hello-world/buildfile
+!02_cpp_input/buildfile
+!03_fibunacci/buildfile
+!04_multiple files/buildfile
+!05_rational/buildfile
+!07_build/buildfile
+
+!buildfile
+
+!README.md
+
+!.gitignore

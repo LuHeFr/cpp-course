@@ -1,0 +1,15 @@
+#first this:
+cxx.std = latest
+
+#then implimentation of the cxx libary
+using cxx
+
+#include the extensions for:
+hxx{*}: extension = hpp
+cxx{*}: extension = cpp
+
+#exe{test}: cxx{main} hxx{test} cxx{test}
+exe{test}: cxx{*} hxx{*}
+
+#the ending for including the header-file with <>
+cxx.poptions =+ "-I$src_base"
