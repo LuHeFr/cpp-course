@@ -1,21 +1,21 @@
-    # C++ Course
+# C++ Course
 
-    Course to learn C++ basics
+Course to learn C++ basics
 
-    ## Requirements
+## Requirements
 
-    - GCC
-    - build2
-    - git
+- GCC
+- build2
+- git
 
-    ## Build and Execute
+## Build and Execute
 
-    Clone the repository and run the folowwing commands inside the directory.
+Clone the repository and run the folowwing commands inside the directory.
 
-        $ b
-        $ ./main
+    $ b
+    $ ./main
 
-    Remove the files by using the following commands.
+Remove the files by using the following commands.
 
-        $ b clean
-        
+    $ b clean
+
