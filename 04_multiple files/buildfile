@@ -4,6 +4,6 @@ using cxx
 hxx{*}: extension = hpp
 cxx{*}: extension = cpp
 
-cpp.coptions =+ "-I$src_base"
+cxx.poptions =+ "-I$src_base"
 
 exe{gaus}: {hxx cxx}{**}
